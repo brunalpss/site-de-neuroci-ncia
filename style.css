@@ -1,0 +1,496 @@
+html
+{
+    height:100%;
+    width:100%;  
+}
+
+body
+{
+    background-color: gray;
+}
+
+a:link
+{
+    text-decoration:none;
+}
+
+@media (min-width:1270px)
+{
+    .container
+    {
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        padding:0;
+    } 
+}
+
+.row
+{
+    margin-left:-5px;
+    margin-right:-5px;
+}
+
+.row:before, .row:after
+{
+    display:table; 
+}
+
+.row:after
+{
+    clear:both;
+}
+
+.col
+{ 
+    display:inline-block;  
+    vertical-align:top;
+    min-height:1px;
+    padding-left:5px;
+    padding-right:5px;
+    width:100%;
+    margin-right:-4px;
+}
+
+.card_area > div
+{ 
+    margin-bottom:10px; 
+}
+
+.card_area img
+{ 
+    width:100%;
+}
+
+.container.logo
+{
+    background-color:rgb(0, 0, 0) ;
+}
+
+.carousel
+{
+    margin-top:10px;
+    max-width:100%;
+}
+
+.carousel-caption p
+{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.carousel-caption h5
+{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.carousel-item
+{
+    width:100%;
+    max-height:400px;
+}
+
+.primeiras
+{
+    max-width:100%;
+}
+
+.carousel
+{
+    width:100%;
+}
+
+.carousel-item
+{
+    width:100%;
+}
+
+.carrossel_1
+{
+    margin-bottom:20px;
+}
+
+#titulocar1 h1
+{
+    color: rgb(0, 0, 0);
+    font-size:5em;
+}
+
+.card-img
+{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+#neuro
+{
+    color: rgb(0, 0, 0);
+}
+
+.terceira .row.quinta div img
+{
+    display:inline;
+}
+
+.segunda h1
+{
+    color: rgb(0, 0, 0);
+    font-size:2s.5em;
+}
+
+.segunda h3
+{
+    color: rgb(0, 0, 0);
+    font-size:2.5em;
+}
+.terceira h1
+{
+    font-size:2.5em;
+    color: rgb(0, 0, 0);
+}
+
+.bubu img
+{
+    margin-top:50px;
+    margin-left:5px;
+}
+                                                                                                
+.card-body.oneworld h5
+{
+    color:rgb(0, 0, 0);
+    font-size:1.5em;
+}
+
+.card-body.oneworld p
+{
+    color:rgb(0, 0, 0);
+    font-size:1.5em;
+}
+
+.card-body.temperatura h5
+{
+    color:rgb(0, 0, 0);
+    font-size:1.5em;
+}
+
+.card-body.temperatura p
+{
+    color:rgb(0, 0, 0);
+    font-size:1.5em;
+}
+.titulo_gerais
+{
+    padding:20px;
+    color:rgb(0, 0, 0);
+}
+
+.videos
+{
+    color:rgb(0, 0, 0);
+    font-size:2.5em;
+    margin-left:0px;
+}
+
+.musica
+{
+    font-size:2.5em;
+    color:rgb(0, 0, 0);
+}
+
+.musicas
+{
+    font-size:2.5sem;
+    color:rgb(0, 0, 0);
+}
+
+#tempo
+{
+    margin-left:250px;
+}
+
+#paragrafoparceiros1
+{
+    font-size:2.5em;
+    color: rgb(0, 0, 0);
+}
+
+#paragrafoparceiros2
+{
+    font-size:1.5em;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 650px)
+{
+    .carousel-caption p
+    {
+        display:none;
+    }
+
+    .carousel-caption h5
+    {
+        color:rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        font-size:1.5em;
+    }
+
+   .carrossel_1
+    {
+        padding:10px;
+    }
+
+    .card-img
+    {
+        margin-top:20px;
+        margin-left:0px;         
+    }
+
+    .corousel.carrossel_2
+    {
+        margin-bottom:20px;
+    }
+
+    .card p
+    { 
+        display:none;
+    }
+
+    .card p
+    {
+        height:100%;
+    }
+
+    .gallery
+    {
+        display:none;
+    }
+
+    #tempo
+    {
+        margin-left:20px;
+    }
+
+    .card_area#desapearing
+    {
+        display:none;
+    }
+
+    #parceiros2, #paragrafoparceiros2
+    {
+        display:none;
+    }
+
+    .oi
+    {
+        margin-left:50px;
+    }   
+
+    .cansei div div img
+    {
+        max-height:250px;
+        max-width:150px;
+        margin-left:100px;
+    }
+}
+
+@media screen and (min-width:651px) and (max-width:700px)
+{
+    #parceiros2, #paragrafoparceiros2
+    {
+        display:none;
+    }
+
+    .sair
+    {
+        display:none;
+    }
+
+    .card p
+    { 
+        display:none;
+    }
+    
+    .oi
+    {
+        margin-left:100px;
+    }
+
+    #tempo
+    {
+        margin-left:100px;
+    }
+
+    .musica
+    {
+        margin-left:10px;
+        padding:20px;
+    }
+
+    .spotify
+    {
+        margin-left:10px;
+        padding:20px;
+    }
+
+    .musicas
+    {
+        margin-bottom:20px;
+    }
+    
+    .card_area.spotify
+    {
+        margin-right:-50px;
+    }
+
+    .oi
+    {
+        margin-left:50px;
+    }   
+
+    .cansei div div img
+    {
+        max-height:250px;
+        max-width:150px;
+        margin-left:100px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:767px)
+{
+    .sair
+    {
+        display:none;
+    }
+
+    body
+    {
+        margin-right:50px;
+    }
+
+    .oi
+    {
+        margin-left:100px;
+    }
+
+    #tempo
+    {
+        margin-left:100px;
+        margin-right:-100px;
+    }
+
+    .cansei div div img
+    {
+        max-height:400px;
+        max-width:200px;
+        margin-left:100px;
+    }
+
+    #desapearing
+    {
+        display:none;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:992px)
+{
+    .carousel-caption p
+    {
+        display:none;
+    }
+
+    .card p
+    { 
+        display:none;
+    }
+
+    #desapearing
+    {
+        display:none;
+    }
+
+    #tempo
+    {
+        margin-left:10px;
+    }
+
+    #parceiros1,  #paragrafoparceiros1
+    {
+        display:none;
+    }
+    
+    #paragrafoparceiros2
+    {
+        font-size:1.5em;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media screen and (min-width:993px)
+{
+    #parceiros2, #paragrafoparceiros2
+    {
+        display:none;
+    }
+}
+
+.context-dark, .bg-gray-dark, .bg-primary
+{
+    color: white;
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active
+{
+    color: white;
+}
+
+.nav-list li
+{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.nav-list li a:hover:before
+{
+    margin-left:0;
+    opacity:1;
+    visibility:visible;
+}
+
+ul, ol
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.social-inner
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    padding:23px;
+    font:900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform:uppercase;
+    color: white;
+}
+
+.social-container .col
+{
+    border:1px solid white;
+}
+
+.nav-list li a:before
+{
+    content:"\f14f";
+    font:400 21px/1 "Material Design Icons";
+    color: white;
+    display:inline-block;
+    vertical-align:baseline;
+    margin-left:-28px;
+    margin-right:7px;
+    opacity:0;
+    visibility:hidden;
+    transition:.22s ease;
+}
